@@ -16,7 +16,7 @@ Were the options are:
 
 `--order` or `-o <execution_order_simulation>`: for setting "serial" or "random" simulated execution, of the isolated queries' traces used as input
 
-`--block` or `-b <continius_block_size_of_subqueries>`: for setting the max size of block of continius subqueries, from each isolated query's trace
+`--block` or `-b <block_size_of_continius_subqueries>`: for setting the max size of block of continius subqueries, from each isolated query's trace
 
 `--delay` or `-d <delay_between_consequtive_subqueries>`:  for setting the max delay between two consequtive subqueries, of the produced mixed federated log
 
