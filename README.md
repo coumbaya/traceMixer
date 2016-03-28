@@ -1,6 +1,6 @@
 # traceMixer
 
-This is a help program for FETA 
+This is a help program for [FETA](https://github.com/coumbaya/feta/).
 
 Mixes traces of queries executed in isolation, to simulate a concurrent execution.
 
