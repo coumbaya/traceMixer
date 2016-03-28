@@ -6,12 +6,6 @@ Mixes traces of queries executed in isolation, to simulate a concurrent executio
 
 ## Run traceMixer
 
-      System.out.println(" Usage : --engine or -e <engine_used_for_traces>: for isolated queries' traces used as input, which are generated with either \"anapsid\" or \"fedx\" (by default \"fedx\")");
-        System.out.println("         --order or -o: for setting \"serial\" or \"random\" simulated execution, of the isolated queries' traces used as input");
-        System.out.println("         --block or -b: for setting the max size of block of continius subqueries, from each isolated query's trace");
-        System.out.println("         --delay or -d: for setting the max delay between two consequtive subqueries, of the produced mixed federated log");
-        System.out.println("         --help or -h: for showing help");
-        
 In order to execute **traceMixer**, you must run the command:
 
 `$ java -jar "traceMixer.jar" -[option]`
